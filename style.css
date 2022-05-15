@@ -1,0 +1,70 @@
+body {
+    background: black;
+  }
+  
+  @font-face{
+    font-family: "PressStart";
+    src: url("PressStart2P-Regular.ttf");
+  
+  }
+
+  h1{
+    color: rgb(0, 255, 85);
+    font-family: "PressStart";
+    font-size: xx-large;
+
+  }
+
+  h2{
+    color: rgb(0, 255, 85);
+    font-family: "PressStart";
+    font-size: x-large;
+  }
+
+  h3{
+    color: rgb(254, 254, 254);
+    font-family: "PressStart";
+    font-size:60px;
+  }
+
+  h4{
+    color: rgb(254, 254, 254);
+    font-family: "PressStart";
+    font-size:80px;
+  }
+
+  button{
+    background-color: rgba(0, 255, 85, 0.316) ;
+    font-family: "PressStart";
+    font-size: large;
+    color:#FFFFFF;
+}
+  
+
+  input {
+    background: rgba(0, 255, 85, 0.316);
+    color: rgba(0, 255, 85);
+    font-family: "PressStart";
+    font-size: large;
+}
+
+  span {
+    color: rgb(0, 255, 85);
+    font-family: "PressStart";
+    font-size: x-large;
+  }
+  
+  .blinker {
+    opacity: 1;
+    margin-bottom: -2px;
+    height: 15px;
+    margin-left: -5px;
+    border-left: 7px solid Green;
+    animation: blinker 0.9s steps(1, start) infinite;
+  }
+  
+  @keyframes blinker {
+    to { 
+      visibility: hidden; 
+    }
+  }
